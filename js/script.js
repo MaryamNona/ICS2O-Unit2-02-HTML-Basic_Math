@@ -7,6 +7,6 @@
 function doMathClicked () {
   // this function does bacic math
 
-  document.getElementById('multiply-math').innerHTML = '5 x 3 = ' + (3 * 5)
-  document.getElementById('add-math').innerHTML = '2(5 + 3) = ' + (2 (5 + 3))
+  document.getElementById('multiply-math').innerHTML = 'The area is 5 x 3 = ' + (3 * 5)
+  document.getElementById('add-math').innerHTML = 'The perimeter is 2(5 + 3) = ' + ((5 + 3) * 2)
 }
