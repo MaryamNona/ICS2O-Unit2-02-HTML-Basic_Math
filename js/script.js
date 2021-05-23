@@ -7,6 +7,6 @@
 function doMathClicked () {
   // this function does basic math
 
-  document.getElementById('multiply-math').innerHTML = 'The area is 5 x 3 = ' + (3 * 5) + (' cm2')
-  document.getElementById('add-math').innerHTML = 'The perimeter is 2(5 + 3) = ' + ((5 + 3) * 2) + (' cm')
+  document.getElementById('area').innerHTML = 'The area is 5 x 3 = ' + (3 * 5) + (' cm²')
+  document.getElementById('perimeter').innerHTML = 'The perimeter is 2(5 + 3) = ' + ((5 + 3) * 2) + (' cm')
 }
